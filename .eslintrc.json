@@ -1,10 +1,5 @@
 {
-  "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react",
-    "plugin:jsx-a11y/recommended"
-  ],
+  "extends": ["airbnb", "prettier", "prettier/react", "plugin:jsx-a11y/recommended"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 8,
@@ -45,7 +40,7 @@
       }
     ],
     "no-console": 0,
-    "import/prefer-default-export": 1,
+    "import/prefer-default-export": 0,
     "import": 0,
     "func-names": 0,
     "space-before-function-paren": 0,
@@ -84,7 +79,8 @@
       {
         "trailingComma": "all",
         "singleQuote": true,
-        "printWidth": 100
+        "printWidth": 100,
+        "endOfLine": "auto"
       }
     ],
     "jsx-a11y/href-no-hash": "off",
